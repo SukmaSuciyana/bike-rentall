@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 sns.set(style='dark')
 
 # Menyiapkan data day_df
-day_df = pd.read_csv("days.csv")
+day_df = pd.read_csv("dashboard\days.csv")
 day_df.head()
 
 # Menghapus kolom yang tidak diperlukan
